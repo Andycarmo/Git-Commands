@@ -66,3 +66,5 @@ _Una lista de Comandos git_
 | `git log --summary` | Ver cambios (detallado) |
 | `git log --oneline` | Ver cambios (brevemente) |
 | `git diff [source branch] [objetivo branch]` | Vista previa de cambios antes de fusionar |
+
+_Para mas info sobre Git Commands_ https://www.hostinger.co/tutoriales/comandos-de-git
