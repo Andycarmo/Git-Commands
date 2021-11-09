@@ -37,8 +37,8 @@ _Una lista de Comandos git_
 | `git checkout [branch nombre]` | Cambiar a un branch |
 | `git checkout -` | Cambie al ultimo branch revisado |
 | `git checkout -- [file-name.txt]` | Descartar cambios en un archivo |
-| `git merge [branch nombre]` | Merge a un branch dentro del branch activo |
-| `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git merge [branch nombre]` | Fusiona un branch dentro del branch activo |
+| `git merge [source branch] [target branch]` | Fusiona un branch dentro de un target branch |
 | `git stash` | Guardar cambios en un directorio de trabajo sucio |
 | `git stash clear` | Eliminar todas las entradas guardadas |
 
