@@ -20,6 +20,7 @@ _Una lista de Comandos git_
 | `git add [file-name.txt]` | Añadir un archivo al área de ensayo |
 | `git add -A` | Agregue todos los archivos nuevos y modificados al área de puesta en escena |
 | `git commit -m "[mensaje de confirmación]"` | Commit cambios |
+| `git commit -m 'merge commit'` | `master/MERGING` Reversion   |
 | `git rm -r [file-name.txt]` | Eliminar un archivo (o carpeta) |
 
 ### Branching & Merging - (Ramificación y fusión)
