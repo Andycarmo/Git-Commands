@@ -33,7 +33,7 @@ _Una lista de Comandos git_
 | `git push origin --delete [branch nombre]` | Eliminar un branch remoto |
 | `git checkout -b [branch nombre]` | Crear un nuevo branch y cambia a este |
 | `git checkout -b [branch nombre] origin/[branch nombre]` | Clonar un branch remoto y cambia a este |
-| `git branch -m [old branch nombre] [nuevo nombre branch]` | Rename a local branch |
+| `git branch -m [nombre viejo branch] [nombre nuevo branch]` | Renombrar a un local branch |
 | `git checkout [branch nombre]` | Cambiar a un branch |
 | `git checkout -` | Cambie al ultimo branch revisado |
 | `git checkout -- [file-name.txt]` | Descartar cambios en un archivo |
