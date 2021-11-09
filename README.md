@@ -10,7 +10,7 @@ _Una lista de Comandos git_
 | Command | Descripción |
 | ------- | ----------- |
 | `git init` | Inicializar un repositorio local de Git |
-| `git clone ssh://git@github.com/[nombre de usuario]/[repositorio-nombre].git` | Crear una copia local de un repositorio remoto |
+| `git clone https://git@github.com/[nombre de usuario]/[repositorio-nombre].git` | Crear una copia local de un repositorio remoto |
 
 ### Basic Snapshotting - (Instantáneas básicas)
 
