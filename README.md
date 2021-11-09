@@ -1,6 +1,3 @@
-# Git-Commant
-Comandos git
-
 Git Commands
 ============
 
