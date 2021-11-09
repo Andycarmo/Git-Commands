@@ -52,10 +52,9 @@ _Una lista de Comandos git_
 | `git push origin --delete [branch name]` | Eliminar un branch remoto |
 | `git pull` | Actualizar repositorio local al nuevo commit |
 | `git pull origin [branch nombre]` | Jalar los cambios desde el repositorio remoto |
-| `git remote -v | Ver los repositorios remotos junto a sus URL´s |
-| `git remote add origin <host-or-remoteURL> | conectar el repositorio local a un servidor remoto |
-| `git remote <nombre-del-repositorio> | Borrar una conexión a un repositorio remoto especifico |
-  
+| `git remote -v` | Ver los repositorios remotos junto a sus URL´s |
+| `git remote add origin <host-or-remoteURL>` | conectar el repositorio local a un servidor remoto |
+| `git remote <nombre-del-repositorio>` | Borrar una conexión a un repositorio remoto especifico |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Añadir un repositorio remoto |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Establecer una rama de origen de un repositorio a SSH |
 
