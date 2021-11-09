@@ -26,19 +26,19 @@ _Una lista de Comandos git_
 
 | Command | Descripción |
 | ------- | ----------- |
-| `git branch` | Lista de branches (el asterisco indica el actual branch) |
-| `git branch -a` | Lista todos los branches (local and remote) |
-| `git branch [branch nombre]` | Crear un nuevo branch |
-| `git branch -d [branch nombre]` | Eliminar un branch |
-| `git push origin --delete [branch nombre]` | Eliminar un branch remoto |
-| `git checkout -b [branch nombre]` | Crear un nuevo branch y cambia a este |
-| `git checkout -b [branch nombre] origin/[branch nombre]` | Clonar un branch remoto y cambia a este |
-| `git branch -m [nombre viejo branch] [nombre nuevo branch]` | Renombrar a un local branch |
-| `git checkout [branch nombre]` | Cambiar a un branch |
-| `git checkout -` | Cambie al ultimo branch revisado |
+| `git branch` | Listar todas las ramas presentes en el repositorio (el asterisco indica la rama actual) |
+| `git branch -a` | Lista todos las ramas (local y remote) |
+| `git branch [nombre de la rama]` | Crear un nueva rama |
+| `git branch -d [nombre de la rama]` | Eliminar una rama |
+| `git push origin --delete [nombre de la rama]` | Eliminar un branch remoto |
+| `git checkout -b [nombre de la rama]` | Crear un nuevo branch y cambia a este |
+| `git checkout -b [nombre de la rama] origin/[branch nombre]` | Clonar un branch remoto y cambia a este |
+| `git branch -m [nombre viejo de la rama] [nombre nuevo de la rama]` | Renombrar a una rama local |
+| `git checkout [nombre de la rama]` | Cambiar a una rama especifica |
+| `git checkout -` | Cambiar a la ultima rama revisado |
 | `git checkout -- [file-name.txt]` | Descartar cambios en un archivo |
-| `git merge [branch nombre]` | Fusiona un branch dentro del branch activo |
-| `git merge [source branch] [target branch]` | Fusiona un branch dentro de un target branch |
+| `git merge [nombre de la rama]` | Fusiona una rama dentro de la rama activa |
+| `git merge [source branch] [target branch]` | Fusiona una rama dentro de otra rama |
 | `git stash` | Guardar cambios en un directorio de trabajo sucio |
 | `git stash clear` | Eliminar todas las entradas guardadas |
 
@@ -52,6 +52,10 @@ _Una lista de Comandos git_
 | `git push origin --delete [branch name]` | Eliminar un branch remoto |
 | `git pull` | Actualizar repositorio local al nuevo commit |
 | `git pull origin [branch nombre]` | Jalar los cambios desde el repositorio remoto |
+| `git remote -v | Ver los repositorios remotos junto a sus URL´s |
+| `git remote add origin <host-or-remoteURL> | conectar el repositorio local a un servidor remoto |
+| `git remote <nombre-del-repositorio> | Borrar una conexión a un repositorio remoto especifico |
+  
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Añadir un repositorio remoto |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Establecer una rama de origen de un repositorio a SSH |
 
