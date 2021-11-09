@@ -1,16 +1,9 @@
-Git Commands
+Git Commands - Comandos Git
 ============
-
-## Versiones traducidas
-- [Versão em português](READMEpt.md)
 
 ___
 
-_Una lista de Git commands_
-
-*Si estás interesado en mis alias de Git, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
-
---
+_Una lista de Comandos git_
 
 ### Getting & Creating Projects - (Obtención y creación de proyectos)
 
@@ -53,14 +46,14 @@ _Una lista de Git commands_
 
 | Command | Descripción |
 | ------- | ----------- |
-| `git push origin [branch name]` | Push a branch to your remote repository |
-| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
-| `git push` | Push changes to remote repository (remembered branch) |
-| `git push origin --delete [branch name]` | Delete a remote branch |
-| `git pull` | Update local repository to the newest commit |
-| `git pull origin [branch name]` | Pull changes from remote repository |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| `git push origin [branch name]` | Empujar un branch a un repositorio remoto |
+| `git push -u origin [branch name]` | Empujar cambios a un repositorio remoto (y recordar el branch) |
+| `git push` | Empujar cambiosa un repositorio remoto (branch recordado) |
+| `git push origin --delete [branch name]` | Eliminar un branch remoto |
+| `git pull` | Actualizar repositorio local al nuevo commit |
+| `git pull origin [branch nombre]` | Jalar los cambios desde el repositorio remoto |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Añadir un repositorio remoto |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Establecer una rama de origen de un repositorio a SSH |
 
 ### Inspection & Comparison - Inspección y comparación
 
