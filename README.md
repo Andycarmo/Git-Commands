@@ -19,6 +19,7 @@ _Una lista de Comandos git_
 
 | Command | Descripción |
 | ------- | ----------- |
+| `git clean -d` |  Listar los directorios que van a ser borrados. |
 | `git clean -d -n` | Con la opción -n para listar todos los archivos y directorios no rastreados que van a ser borrados. |
 | `git clean -d -f` | Eliminar todos los archivos y directorios no rastreados. |
 | `git clean -f` |  Eliminar sólo los archivos no rastreados. |
