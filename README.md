@@ -51,9 +51,10 @@ _Una lista de Comandos git_
 | `git checkout -b [nombre de la rama] origin/[branch nombre]` | Clonar un branch remoto y cambia a este |
 | `git branch -m [nombre viejo de la rama] [nombre nuevo de la rama]` | Renombrar a una rama local |
 | `git checkout [nombre de la rama]` | Cambiar a una rama especifica |
+| `git switch [nombre de la rama]` | Cambiar a una rama especifica |
 | `git checkout -` | Cambiar a la ultima rama revisado |
 | `git checkout -- [file-name.txt]` | Descartar cambios en un archivo |
-| `git merge [nombre de la rama]` | Fusiona una rama dentro de la rama activa |
+| `git merge [nombre de la rama]` | Agrega los cambios de una rama dentro de la rama activa |
 | `git merge [source branch] [target branch]` | Fusiona una rama dentro de otra rama |
 | `git stash` | Guardar cambios en un directorio de trabajo sucio |
 | `git stash clear` | Eliminar todas las entradas guardadas |
@@ -82,5 +83,13 @@ _Una lista de Comandos git_
 | `git log --summary` | Ver cambios (detallado) |
 | `git log --oneline` | Ver cambios (brevemente) |
 | `git diff [source branch] [objetivo branch]` | Vista previa de cambios antes de fusionar |
+
+
+### Micellaneous
+
+| Command | Descripción |
+| ------- | ----------- |
+| `touch [nombre del archivo].[tipo de archivo (Ej .html)]` | Crear un archivo dentro del proyecto |
+| `git reflog` | Muestra historial de actualizaciones en los extremos de las ramas. |
 
 _Para mas info sobre Git Commands_ https://www.hostinger.co/tutoriales/comandos-de-git
