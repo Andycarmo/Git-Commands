@@ -1,21 +1,21 @@
 ![git-andycarmo](https://user-images.githubusercontent.com/83571422/140892258-5303a3df-eff7-4d2f-a948-2123c5100dcc.jpg)
 
 ![](https://img.shields.io/github/license/Andycarmo/Git-Commands)  
-Git Commands - Comandos Git
+Comandos Git - `Git Commands` - 
 ============
 
 ___
 
 _Una lista de Comandos git_
 
-### Getting & Creating Projects - (Obtención y creación de proyectos)
+### Obtención y creación de proyectos - `Getting & Creating Projects`
 
 | Command | Descripción |
 | ------- | ----------- |
 | `git init` | Inicializar un repositorio local de Git |
 | `git clone https://git@github.com/[nombre de usuario]/[repositorio-nombre].git` | Crear una copia local de un repositorio remoto |
 
-### Cleaning & Delete - (Eliminar Untracked´s)
+### Eliminar Untracked´s - `Cleaning & Delete`
 
 | Command | Descripción |
 | ------- | ----------- |
@@ -27,7 +27,7 @@ _Una lista de Comandos git_
 | `git clean -d -f -x` |  Eliminar todos los archivos y directorios no rastreados e ignorados. |
 | `git clean -x` |  Eliminar sólo los archivos y directorios ignorados. |
 
-### Basic Snapshotting - (Instantáneas básicas)
+### Instantáneas Básicas - `Basic Snapshotting` 
 
 | Command | Descripción |
 | ------- | ----------- |
@@ -38,7 +38,7 @@ _Una lista de Comandos git_
 | `git commit -m 'merge commit'` | `master/MERGING` Reversion   |
 | `git rm -r [file-name.txt]` | Eliminar un archivo (o carpeta) |
 
-### Branching & Merging - (Ramificación y fusión)
+### Ramificación y Fusión - `Branching & Merging`
 
 | Command | Descripción |
 | ------- | ----------- |
@@ -59,7 +59,7 @@ _Una lista de Comandos git_
 | `git stash` | Guardar cambios en un directorio de trabajo sucio |
 | `git stash clear` | Eliminar todas las entradas guardadas |
 
-### Sharing & Updating Projects - Compartir y actualizar proyectos
+### Compartir y Actualizar proyectos - `Sharing & Updating Projects` 
 
 | Command | Descripción |
 | ------- | ----------- |
@@ -75,7 +75,7 @@ _Una lista de Comandos git_
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Añadir un repositorio remoto |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Establecer una rama de origen de un repositorio a SSH |
 
-### Inspection & Comparison - Inspección y comparación
+### Inspección y Comparación - `Inspection & Comparison` 
 
 | Command | Descripción |
 | ------- | ----------- |
@@ -85,7 +85,7 @@ _Una lista de Comandos git_
 | `git diff [source branch] [objetivo branch]` | Vista previa de cambios antes de fusionar |
 
 
-### Micellaneous
+### `Micellaneous`
 
 | Command | Descripción |
 | ------- | ----------- |
