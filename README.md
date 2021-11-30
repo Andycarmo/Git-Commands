@@ -8,7 +8,7 @@ ___
 
 _Una lista de Comandos git_
 
-### Obtención y creación de proyectos - `Getting & Creating Projects`
+### Creación - Clonación de proyecto - `Getting & Creating Projects`
 
 | Command | Descripción |
 | ------- | ----------- |
