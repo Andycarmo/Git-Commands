@@ -15,6 +15,17 @@ _Una lista de Comandos git_
 | `git init` | Inicializar un repositorio local de Git |
 | `git clone https://git@github.com/[nombre de usuario]/[repositorio-nombre].git` | Crear una copia local de un repositorio remoto |
 
+### Cleaning & Delete - (Eliminar Untracked´s)
+
+| Command | Descripción |
+| ------- | ----------- |
+| `git clean -d -n` | Con la opción -n para listar todos los archivos y directorios no rastreados que van a ser borrados. |
+| `git clean -d -f` | Eliminar todos los archivos y directorios no rastreados. |
+| `git clean -f` |  Eliminar sólo los archivos no rastreados. |
+| `git clean -d -i` |  Borrar los archivos y directorios no rastreados interactivamente. |
+| `git clean -d -f -x` |  Eliminar todos los archivos y directorios no rastreados e ignorados. |
+| `git clean -x` |  Eliminar sólo los archivos y directorios ignorados. |
+
 ### Basic Snapshotting - (Instantáneas básicas)
 
 | Command | Descripción |
