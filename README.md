@@ -22,6 +22,8 @@ _Una lista de Comandos git_
 | `cd desktop` | te ubicas en el escritorio |
 | `ls` | listar lo que en la carpeta se encuentre |
 | `pwd` | Da la ubicacion actual |
+| `rm -rf .git` | Elimina el ropositorio que haya creado por error |
+
 
 ### Eliminar Untracked´s - `Cleaning & Delete`
 
