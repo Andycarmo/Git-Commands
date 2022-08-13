@@ -19,11 +19,35 @@ _Una lista de Comandos git_
 
 | Command | Descripción |
 | ------- | ----------- |
-| `cd desktop` | Te ubicas en el escritorio |
 | `ls` | Listar lo que en la carpeta se encuentre |
+| `cd (nombre de la carpeta)` | Avanzas a la carpeta indicada |
+| `cd` | retrocedes de carpeta |
 | `pwd` | Da la ubicacion actual |
 | `rm -rf .git` | Elimina el repositorio que haya creado por error |
 
+| Command de Git | Descripción |
+| -------------- | ----------- |
+| `git init` | Inicio de proyecto nuevo |
+| `git status` | Ver estado de nuestros archivos |
+| `git add "nombre del archivo"` | Para agregar un archivo al Staging Area |
+| `git add .` | Para agregar todos los archivos modificados |
+| `git config --global user.email "you@example.com"` | Para configurar el email de este usuario  |
+| `git config --global user.name "Your Name"` | Para configurar el nombre del usuario  |
+| `git commit` | Captura un Snapshot de los cambios realizados en ese momento del proyecto y abre editor bin |
+| `git commit -m "Mensaje de commit"` | Captura un Snapshot de los cambios realizados en ese momento del proyecto sin abrir el editor |
+| `i` | Modo INSERTAR en la terminal bin  |
+| `:wq` | Para salir de la terminal  |
+| `git log` | Para ver todos los commit que hemos creado  |
+| `git checkout -- "nombre del archivo"` | Para revertir los cambios del los archivos  |
+| `git diff "nombre del archivo"` | Para ver las diferencias hechas en los archivos  |
+| `git branch` | Para ver las ramas del proyecto  |
+| `git branch (nombre de la rama nueva)` | Crea una nueva rama en el proyecto |
+| `git checkout (nombre de la rama)` | Cambio de rama del proyecto  |
+
+##
+
+
+##
 
 ### Eliminar Untracked´s - `Cleaning & Delete`
 
