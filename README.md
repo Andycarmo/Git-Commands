@@ -15,6 +15,14 @@ _Una lista de Comandos git_
 | `git init` | Inicializar un repositorio local de Git |
 | `git clone https://git@github.com/[nombre de usuario]/[repositorio-nombre].git` | Crear una copia local de un repositorio remoto |
 
+### Creación de proyecto local - Git Bash_
+
+| Command | Descripción |
+| ------- | ----------- |
+| `cd desktop` | te ubicas en el escritorio |
+| `ls` | listar lo que en la carpeta se encuentre |
+| `pwd` | Da la ubicacion actual |
+
 ### Eliminar Untracked´s - `Cleaning & Delete`
 
 | Command | Descripción |
@@ -93,3 +101,6 @@ _Una lista de Comandos git_
 | `git reflog` | Muestra historial de actualizaciones en los extremos de las ramas. |
 
 _Para mas info sobre Git Commands_ https://www.hostinger.co/tutoriales/comandos-de-git
+
+
+git init 
