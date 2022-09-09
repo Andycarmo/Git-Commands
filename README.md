@@ -129,4 +129,3 @@ _Una lista de Comandos git_
 _Para mas info sobre Git Commands_ https://www.hostinger.co/tutoriales/comandos-de-git
 
 
-git init 
